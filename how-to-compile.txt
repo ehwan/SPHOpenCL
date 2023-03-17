@@ -1,0 +1,5 @@
+** Linux **
+c++ -std=c++14 -O2 *.cpp -lsfml-window -lsfml-system -lsfml-graphics -lOpenCL -o main.out -pthread
+
+** OS X **
+c++ -std=c++14 -O2 *.cpp -lsfml-window -lsfml-system -lsfml-graphics -framework OpenCL -o main.out
